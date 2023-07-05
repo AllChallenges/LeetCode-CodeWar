@@ -16,7 +16,7 @@
 export function twoSum(numbers: number[], target: number) {
   const map = new Map();
   return numbers.reduce((arr, currVal, currIndex) => {
-    const num = target - currVal; // Calculate the correct difference
+    const num = target - currVal;
     if (map.has(num)) {
       return [map.get(num), currIndex];
     }
@@ -28,7 +28,7 @@ export function twoSum(numbers: number[], target: number) {
 export function twoSum1(numbers: number[], target: number) {
   const obj = {};
   return numbers.reduce((arr, currVal, currIndex) => {
-    const num = target - currVal; // Calculate the correct difference
+    const num = target - currVal;
     if (Object.hasOwn(obj, num)) {
       return [obj[num], currIndex];
     }

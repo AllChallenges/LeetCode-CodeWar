@@ -1,5 +1,3 @@
-//import * as test from './codeWar/day-1/romanNumberal.ts';
-//console.log(test.romanNumberal());
-import { romanNumberal } from './codeWar/day-1/romanNumberal.ts';
+import { twoSum } from './codeWar/day-2/twoSum.ts';
 
-console.log(romanNumberal(2001));
+console.log(twoSum([1, 2, 3], 4));
